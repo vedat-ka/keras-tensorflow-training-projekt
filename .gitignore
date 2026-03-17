@@ -1,0 +1,8 @@
+.venv
+__pycache__
+*.pyc
+backend/models/*.keras
+backend/models/*.json
+backend/data/
+frontend/node_modules
+frontend/dist

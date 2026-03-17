@@ -1,0 +1,9 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+importlib-resources==6.5.2
+numpy==2.1.3
+openvino>=2025.0.0
+# TensorFlow requires a stable supported Python version, typically 3.10-3.12.
+tensorflow==2.19.0; python_version < "3.13"
+tensorflow-datasets==4.9.7; python_version < "3.13"
